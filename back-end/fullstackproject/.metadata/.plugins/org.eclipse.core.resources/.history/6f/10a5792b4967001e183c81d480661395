@@ -1,0 +1,26 @@
+package com.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.entity.faq;
+import com.repository.faqRepository;
+
+public class faqService {
+	
+	@Autowired
+	private faqRepository repo;
+
+	public void save(@RequestBody faq Faq) {
+		
+		repo.save(Faq);
+	}
+
+	public List<faq> getAll() {
+		
+		return repo.findAll();
+	}
+
+}

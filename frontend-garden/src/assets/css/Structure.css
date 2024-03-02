@@ -1,0 +1,73 @@
+.design-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.design-top-half{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.design-head{
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.design-virtual{
+  font-size: 20px;
+  margin-left: 90px;
+}
+.design-virtual span{
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.design-img1-photo,
+.design-img2-photo {
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  max-height: 200px; /* Set the maximum height to your desired value */
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(240, 230, 220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  display: flex;
+  flex-wrap: wrap;
+}
+.design-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .design-img1,
+  .design-img2 {
+    margin: 10px;
+    width: calc(50% - 20px);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+.design-bottom-half{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+.design-body-info{
+    font-size: 20px;
+    font-style: italic;
+}
+.design-body-info1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.design-plant-info1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.design-plant-info{
+    padding: 0.5rem 10%;
+}

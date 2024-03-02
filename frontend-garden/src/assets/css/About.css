@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Sucrose Bold Two";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2") format('woff2');
+}
+@font-face {
+    font-family: "IM Fell French Canon Pro";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2") format('woff2');
+}
+.about-container{
+    box-sizing: border-box;
+}
+.about-head{
+    background: url(https://media.istockphoto.com/id/1481409791/photo/handpicking-carrots-in-allotment.webp?b=1&s=170667a&w=0&k=20&c=ASHtYH2GDUwOGuAbzFYMIlpOHPpZxa6vy-JWz8AFYFo=) no-repeat;
+    padding-top: 61.93333333%;
+    background-size: cover;
+    font-family: "IM Fell French Canon Pro";
+}
+.about-head-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45.8%;
+}
+.about-head-info{
+    position: fixed;
+    top: 10rem;
+    right: 3rem;
+    font-size: 12vw;
+    line-height: 1;
+    margin-top: 0;
+    text-align: center;
+    user-select: none;
+}
+.about-head-span{
+    display: block;
+    font-size: 6.75vw;
+    user-select: none;
+}
+.about-main{
+    background: #fff;
+    position: relative;
+    border: 1px solid #fff;
+    font-family: "IM Fell French Canon Pro";
+    font-size: 1.4rem;
+    padding: 2rem 25%;
+    line-height: 1.6;
+    user-select: none;
+}
+@media all and (max-width: 400px ){
+    .about-main{
+        padding: 2rem ;
+    }
+}

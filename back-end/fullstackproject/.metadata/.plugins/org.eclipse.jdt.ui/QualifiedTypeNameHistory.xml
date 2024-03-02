@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EnumType"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="lombok.Value"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.Claims"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.io.Decoders"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.security.Keys"/>
+    <fullyQualifiedTypeName name="io.jsonwebtoken.Jwts"/>
+    <fullyQualifiedTypeName name="com.service.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="com.entity.Admin"/>
+    <fullyQualifiedTypeName name="com.entity.enumerate.Role"/>
+    <fullyQualifiedTypeName name="com.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.config.JwtService"/>
+    <fullyQualifiedTypeName name="com.auth.AuthenticationResponse"/>
+    <fullyQualifiedTypeName name="com.auth.RegisterRequest"/>
+    <fullyQualifiedTypeName name="com.entity.User"/>
+    <fullyQualifiedTypeName name="com.entity.contactService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="com.entity.contact"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.repository.feedRepository"/>
+    <fullyQualifiedTypeName name="com.entity.Feedback"/>
+    <fullyQualifiedTypeName name="org.springframework.web.cors.CorsConfigurationSource"/>
+    <fullyQualifiedTypeName name="org.springframework.web.cors.CorsConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.cors.UrlBasedCorsConfigurationSource"/>
+    <fullyQualifiedTypeName name="com.constants.Api"/>
+    <fullyQualifiedTypeName name="org.springframework.web.filter.CorsFilter"/>
+    <fullyQualifiedTypeName name="com.service.PlantService"/>
+    <fullyQualifiedTypeName name="com.auth.PlantAdd"/>
+    <fullyQualifiedTypeName name="com.entity.Plant"/>
+</qualifiedTypeNameHistroy>

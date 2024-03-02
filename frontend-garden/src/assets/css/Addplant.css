@@ -1,0 +1,63 @@
+.add-plant-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2); 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.add-plant-heading{
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.add-plant{
+  background-image: url("https://i.ibb.co/cbHkZjQ/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.add-plan-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat";
+  height: 100vh;
+}
+
+.add-plant-container label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-plant-container input,
+.add-plant-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-plant-container button {
+  background-color: #818991;
+  color: #f3f7f4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-plant-container button:hover {
+  background-color: #000000;
+}
+.plant-add-can{
+  margin-left: 20px;
+}

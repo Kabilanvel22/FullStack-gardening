@@ -1,0 +1,85 @@
+.sigup_body {
+    background-image: url('https://img.freepik.com/free-vector/flat-gardening-social-media-post-template_23-2149376988.jpg?w=1060&t=st=1694765839~exp=1694766439~hmac=e8dbd392f2a3a04edf7c3fb7a4bc283e406ec3e1ef1c0ca1fecbfe99d0805a3c');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+  }
+  .signup_form {
+    max-width: 300px;
+    padding: 5px 20px ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(106, 106, 106,0.7); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: blur(1px); 
+    background: transparent; */
+    margin-bottom: 20px;
+    
+  }
+  .header{
+    margin-left: 90px;
+  }
+  .input {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+  }
+  
+  .signup_button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .signup_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sin_or {
+    font-size: 16px;
+    margin: 10px 10px;
+  }
+  
+  .signin_to {
+    cursor: pointer;
+    font-size: 14px;
+    color: #090909;
+    text-decoration: none;
+  }
+  
+  .signin_to:hover {
+    color: #0056b3;
+  }
+  
+  .error-message {
+    font-size: 10px;
+    color: #dc3545; 
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+  
+  .error-message span {
+    font-weight: lighter;
+  }
+  .sign_to{
+    font-size: 12px;
+  }
+  .sig_logos{
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'italic';
+  }
+  

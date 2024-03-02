@@ -1,0 +1,65 @@
+.add-faq-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 80px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .add-faq-heading{
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 140px;
+  }
+  .add-faq{
+    background-image: url("https://i.ibb.co/cbHkZjQ/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .add-plan-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat";
+    height: 100vh;
+  }
+  
+  .add-faq-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-faq-container input,
+  .add-faq-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-faq-container button {
+    background-color: #818991;
+    color: #f3f7f4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .add-faq-container button:hover {
+    background-color: #000000;
+  }
+  .faq-add-can{
+    margin-left: 20px;
+  }
+  

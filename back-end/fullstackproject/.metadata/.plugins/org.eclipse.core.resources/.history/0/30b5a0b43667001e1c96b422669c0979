@@ -1,0 +1,20 @@
+package com.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.entity.faq;
+import com.repository.faqRepository;
+
+@Service
+public class faqService {
+	
+	@Autowired
+	private  faqRepository faqrepo;
+
+	public void save(@RequestBody faq faqs) {
+		faqrepo.save(faqs);
+	}
+
+}

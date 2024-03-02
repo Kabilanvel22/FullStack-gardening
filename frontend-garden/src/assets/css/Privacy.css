@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Sucrose Bold Two";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/sucrose.woff2") format('woff2');
+}
+@font-face {
+    font-family: "IM Fell French Canon Pro";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/im-fell-french-canon-pro.woff2") format('woff2');
+}
+.privacy-container{
+    box-sizing: border-box;
+}
+.privacy-head {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .privacy-head-img {
+    width: 100%;
+  }
+.privacy-head-info{
+    position: fixed;
+    top: 10rem;
+    right: 3rem;
+    font-size: 12vw;
+    line-height: 1;
+    margin-top: 0;
+    text-align: center;
+    user-select: none;
+}
+.privacy-head-span{
+    display: block;
+    font-size: 6.75vw;
+    user-select: none;
+}
+.privacy-main{
+    background: #fff;
+    position: relative;
+    border: 1px solid #fff;
+    font-family: "IM Fell French Canon Pro";
+    font-size: 1.4rem;
+    padding: 2rem 25%;
+    line-height: 1.6;
+    user-select: none;
+}
+@media all and (max-width: 400px ){
+    .privacy-main{
+        padding: 2rem ;
+    }
+}
